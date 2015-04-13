@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="move.css">
+</head>
+<body>
+
+	<div class="squad squadBase" layer="30"></div>
+	<div class="cycle cycleBase" layer="25"></div>
+	<input type="text" value="Campo de Texto" class="input" onselectstart="return false">
+
+	<script src="move.1.0.min.js"></script>	
+	<script>
+		 /* props: absolute, width, height
+		 O objeto tem q ser absoluto e ter tamanho definido. */
+
+		 //Draggable.drag = false;
+		 /*
+		 Se false, quando um objeto estiver sendo arrastado
+		 ele permanecerá nessa camada durante o drag. Se true,
+		 ele fica na frente de tudo enquanto estiver acontencendo
+		 a ação de drag, quando soltar, volta à camada original. 
+		 Se não for especificado nada, ele considera como true */
+		
+
+		Move(".cycle");
+		Move(".squad");
+		Move(".input");
+	</script>
+</body>
+</html>
