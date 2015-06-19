@@ -171,7 +171,7 @@ var EAX = EAX || (function(w) {
                     }
                     
                     dataPost = dataPost.substring(1, dataPost.length);
-                    xhr.send(dataPost);console.log(params)
+                    xhr.send(dataPost);
                     
                 }
                 else xhr.send(null);
