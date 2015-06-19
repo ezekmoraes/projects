@@ -199,14 +199,11 @@ var eax = function() {
 }();
 
 /**
- * params [(Object) data | (String) url], (Boolean) asynchronous
- * 
- * get methods
- * success
- * error
+ * request, url, params, async
+ * params (String) request, [(Object) data | (String) url], (Object) data, (Boolean) asynchronous
  * 
  * 
- * eax.http('dados.json', true).success().error();
+ * eax.http('GET', 'dados.json').success(function() {} ).error( function() {} );
  */
 
 
