@@ -81,18 +81,7 @@ var EAX = EAX || (function(w) {
         
         
     }; // fim do método que pega o objeto de requisições
-    
-    
-    /**
-     * executa quando EAX é chamado
-     */
-     
-    EAX.prototype.__init = function() {
         
-        
-        
-    }();
-    
     
     // REQUEST
     EAX.prototype.http = function(request, url, params, async) {
