@@ -10,6 +10,3 @@ Com EAX você não precisa mais reinventar a roda, apenas
 
 Autor: Ezequiel M. Mello
 
-
-Colaborador: Rafael Romão
- 

@@ -11,9 +11,6 @@
  * Criad por
  * Ezequiel M. Mello
  * 
- * Colaboradores
- * Rafael Romão
- * 
  */
  
 
