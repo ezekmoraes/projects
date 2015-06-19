@@ -11,4 +11,4 @@ Com EAX você não precisa mais reinventar a roda, apenas
 Autor: Ezequiel M. Mello
 
 
-Por se tão pequena, ainda não está documentada porque o uso é muito simples, apenas olhando o código da para entender
+Por se tão pequena, ainda não está documentada porque o uso é muito simples, apenas olhando o código dá para entender
