@@ -8,11 +8,8 @@ Com EAX você não precisa mais reinventar a roda, apenas
  use e começe a produzir.
  
 
-Autor
-Ezequiel M. Mello
+Autor: Ezequiel M. Mello
 
 
-Colaboradores
-
-Rafael Romão
+Colaborador: Rafael Romão
  
