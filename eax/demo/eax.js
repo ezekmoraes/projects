@@ -94,7 +94,7 @@ var EAX = EAX || (function(w) {
     }();
     
     
-    // GET
+    // REQUEST
     EAX.prototype.http = function(request, url, params, async) {
         
         var async = async || true;
@@ -107,9 +107,7 @@ var EAX = EAX || (function(w) {
         fxFinish = function() {};
         dataPost = [];
         
-        //var url = url || request;
-        //console.log(url);
-        //console.log(request);
+        
         /**
          * cada função precisa retornar o objeto principal
          * para que seja possivel varias chamadas de um método em outro
@@ -176,7 +174,7 @@ var EAX = EAX || (function(w) {
                     fxFinish();
                     
                 };
-                //xhr.loadend = 
+
                 if (params != "undefined" && params != null && params != "" && params != false) {
                     for (var key in params) {
                         var value = params[key];
@@ -198,7 +196,7 @@ var EAX = EAX || (function(w) {
         }(xmlhttp()); 
         
         return this;
-    } // fim do GET
+    } // END REQUEST
     
     var eax = new EAX();
     return eax;
