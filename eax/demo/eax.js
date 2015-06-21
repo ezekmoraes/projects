@@ -11,6 +11,8 @@
  * Criad por
  * Ezequiel M. Mello
  * 
+ * Primeira versão. Ainda há muito o que adicionar aqui
+ * 
  */
  
 
@@ -110,7 +112,6 @@ var EAX = EAX || (function(w) {
             fxSuccess(responseText);
         }
         
-        
         // sucesso
         this.success = function(fx) {
             fxSuccess = fx;
@@ -144,7 +145,6 @@ var EAX = EAX || (function(w) {
             
             //se o tipo dos dados for string, entende-se uma url
             if (typeof(url) == "string") {
-                
                 xhr.open(request, url, async);
                 xhr.onreadystatechange = function() {
                     if (this.readyState == 4 && this.status == 200) {
@@ -157,11 +157,9 @@ var EAX = EAX || (function(w) {
                 xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded"); 
                 xhr.onprogress = function(){
                     fxProgress();
-                    
                 };
                 xhr.onloadend = function(){
                     fxFinish();
-                    
                 };
 
                 if (params != "undefined" && params != null && params != "" && params != false) {
@@ -172,11 +170,9 @@ var EAX = EAX || (function(w) {
                     
                     dataPost = dataPost.substring(1, dataPost.length);
                     xhr.send(dataPost);
-                    
                 }
                 else xhr.send(null);
-            
-            
+                
             // senao, se for um objeto
             } else if (typeof(url) == "object") {
                 callback(url);
@@ -192,8 +188,7 @@ var EAX = EAX || (function(w) {
 
 });
 
-
-// objs
+// obj EAX
 var eax = function() {
      return EAX.call(this, window);
 }();
