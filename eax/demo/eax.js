@@ -37,7 +37,7 @@ var EAX = EAX || (function(w) {
      */
      
     EAX.prototype.elements = function(q) {
-        return w.document.querySelector(q);
+        return w.document.querySelectorAll(q);
     };
     
     
